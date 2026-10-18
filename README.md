@@ -2,7 +2,7 @@
 
 [Download the latest Windows installer](https://github.com/GianCarlozxc/CineRelease/releases/latest)
 
-Run **Cine-Setup-0.1.6.exe** from the release assets. Setup creates Cine shortcuts on your desktop and Start menu and launches Cine when installation finishes.
+Run **Cine-Setup-0.1.7.exe** from the release assets. Setup creates Cine shortcuts on your desktop and Start menu and launches Cine when installation finishes.
 
 Cine includes movies, TV shows, Anime, Cartoons, Filipino films and K-drama, genre/year filters, season and episode dialogs, playback controls, resume history, caching, and dark/light themes.
 
@@ -21,3 +21,5 @@ Cine 0.1.4 adds a Video quality selector to the Cine playback bar: Auto and the 
 Cine 0.1.5 fixes stuck startup detection and recovery from HTTP errors. It does not resolve unavailable or rejecting external streaming services.
 
 Cine 0.1.6 adds a separate **Free films** collection with Big Buck Bunny and Sintel, streamed directly from Internet Archive without an account or API key. Cine provides its own controls, available file resolutions, fullscreen and resume history. Both films are Blender Foundation open movies under Creative Commons Attribution 3.0. This collection does not provide access to Netflix series or repair the external providers used by other catalog entries.
+
+Cine 0.1.7 limits total playback startup to 45 seconds, including preparation and automatic fallback. It adds a countdown, Cancel and Next player, handles empty results immediately, and prevents canceled replies from interfering with retries. VidFast is tried first; unresolved Vidking hosts have been removed. This fixes loading/recovery behavior; Menendez playback remains unavailable in the completed live provider tests.
